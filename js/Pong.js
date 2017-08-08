@@ -21,7 +21,7 @@ function Pong(pos, color){
     
     }
 
-    this.interract = function(b){
+    this.interact = function(b){
     	if(this.x - this.width / 2 < 1) this.x = (this.width / 2) + 2;
         if(this.x + this.width / 2 > width - 1) this.x = width - (this.width / 2) - 2;
         

@@ -12,16 +12,13 @@ function setup(){
 }
 
 function draw(){
-    background("#474164");
+    background("#476675");
     pong_alpha.render();
     pong_beta.render();
     ball.update(pong_alpha);
     ball.update(pong_beta);
     ball.render();
     // Auto interaction
-    pong_alpha.interact();
-    if(mouseY < width / 2){
-        // User Interaction
-    	pong_beta.playerInteract();
-    }
+    pong_alpha.interact(ball);
+    pong_beta.interact(ball);
 }
