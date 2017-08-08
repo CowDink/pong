@@ -24,6 +24,6 @@ function draw(){
     ball.render();
     pong_alpha.interact();
     if(mouseY < width / 2){
-    	pong_alpha.playerInteract();
+    	pong_beta.playerInteract();
     }
 }
