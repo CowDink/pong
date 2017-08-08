@@ -18,8 +18,10 @@ function draw(){
     ball.update(pong_alpha);
     ball.update(pong_beta);
     ball.render();
+    // Auto interaction
     pong_alpha.interact();
     if(mouseY < width / 2){
+        // User Interaction
     	pong_beta.playerInteract();
     }
 }
