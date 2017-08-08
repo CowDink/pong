@@ -1,7 +1,3 @@
-/**
- * this program whas created by Tio Irawan
- * under MIT license
- */
 
 let pong_alpha;
 let pong_beta;
